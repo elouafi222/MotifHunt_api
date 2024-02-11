@@ -19,7 +19,7 @@ class summarazire:
 
     def __init__(
         self,
-        GOOGLE_API_KEY="AIzaSyA4YP6WvYZkzXNKuwUTPSokBCwxy-hiCpY",
+        GOOGLE_API_KEY="your api key",
         typeOfModel="gemini-pro",
     ):
         genai.configure(api_key=GOOGLE_API_KEY)
